@@ -10,6 +10,6 @@ s=s.replace(" ","").lower()
 if(s==s[::-1]):
     print("palindrome")
 elif(almost_palindrome(s)):
-    print("almost palindrome")
+    print("almost a palindrome")
 else:
     print("not a palindrome")
